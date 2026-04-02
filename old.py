@@ -1,0 +1,10 @@
+# List Comprehension
+
+list_sqrs = []
+for value in range (0,10):
+    list_sqrs.append(value*2)
+    
+# # print(list_sqrs)
+
+ls_sqrs = [value for value in range (0,10)]
+print(ls_sqrs)
