@@ -9,3 +9,5 @@ if "Hiking" in activities and ("Hiking" in group_interests or "Sports" in group_
 elif "Yoga" in activities and ("Yoga" in group_interests or "Sports" in group_interests):
     print("Looks like a day in the pool is an order!")
     
+    
+    
