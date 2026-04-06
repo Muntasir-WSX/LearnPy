@@ -1,11 +1,12 @@
-def greet():
-    print("Hello, World!")
+from os import name
 
-print  
-    
-# greet()    
+
+def greet(name, age):
+    print(f"Hello,{name} you are {age} years old")
+
+# greet("Alice", 30)
 
 counter = 0
 while counter< 10:
-    print(counter)
+    greet("Alice", 30)
     counter += 1
