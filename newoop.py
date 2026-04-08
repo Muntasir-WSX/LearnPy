@@ -3,15 +3,20 @@ class Book:
         self.title = (title,)
         self.author = (author,)
         self.genre = (genre,)
-
+        self.num_pages = 258
     def read_book(self):
         print(f"Reading {self.title[0]} by {self.author[0]} in the {self.genre[0]} genre.")
         
     def describe_book(self):
         print(f"{self.title[0]} is a {self.genre[0]} book written by {self.author[0]}.")
+     
+    def get_num_pages(self):
+        print(f"{self.title[0]} has {self.num_pages} pages.")   
         
     def __str__(self):
         return f"Book(title='{self.title[0]}', author='{self.author[0]}', genre='{self.genre[0]}')" 
+
+   
 
 book = Book("The Hitchhiker's Guide to the Galaxy", "Douglas Adams", "Science Fiction")
 print(book.read_book())
